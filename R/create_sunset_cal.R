@@ -15,13 +15,13 @@
 #'}
 #' 
 
-create_sunset_cal <- function(date="2014/01/01", 
-                              lat = 40.7127, 
-                              long = -74.0059,
+create_sunset_cal <- function(date="2017/07/18", 
+                              lat = 40.677555, 
+                              long = -73.959536,
                               timezone = "America/New_York",
                               num.days = 365,
                               file="sunset.csv",
-                              location = "Brooklyn Heights Promenade, Brooklyn, NY 11201"){
+                              location = "Rooftop"){
   
   location <- gsub(",", "", location)
   
